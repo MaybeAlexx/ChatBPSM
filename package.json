@@ -1,0 +1,26 @@
+{
+  "name": "study-with-bpsm",
+  "version": "1.0.0",
+  "description": "A website for studying with BPSM, featuring a chatbot for answering study-related questions.",
+  "main": "src/js/main.js",
+  "scripts": {
+    "build": "tailwindcss build src/css/styles.css -o dist/styles.css",
+    "start": "live-server"
+  },
+  "dependencies": {
+    "tailwindcss": "^2.2.19",
+    "gsap": "^3.9.1",
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  },
+  "keywords": [
+    "study",
+    "chatbot",
+    "BPSM",
+    "education"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
